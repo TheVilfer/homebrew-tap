@@ -2,28 +2,28 @@
 class BetterTgCli < Formula
   desc "Unofficial agent-friendly Telegram client for the command line"
   homepage "https://github.com/TheVilfer/better-tg-cli"
-  version "0.17.0"
+  version "0.18.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/TheVilfer/better-tg-cli/releases/download/v0.17.0/better-tg-cli-0.17.0-darwin-arm64.tar.xz"
-      sha256 "06a4cb95b04720e38aaee0418c2d4ca90aea4c2bd1e8252dabe0114fa9047b8a"
+      url "https://github.com/TheVilfer/better-tg-cli/releases/download/v0.18.0/better-tg-cli-0.18.0-darwin-arm64.tar.xz"
+      sha256 "9838960e3fd5c2a0daa9f7baeedbcb1c23faf618ab2d656787e196bb0e6b29d8"
     end
     on_intel do
-      url "https://github.com/TheVilfer/better-tg-cli/releases/download/v0.17.0/better-tg-cli-0.17.0-darwin-x64.tar.xz"
-      sha256 "15369f340e5717cb4fb583c771bde64ee6947359fe5a7383948adfefd77eaee6"
+      url "https://github.com/TheVilfer/better-tg-cli/releases/download/v0.18.0/better-tg-cli-0.18.0-darwin-x64.tar.xz"
+      sha256 "972de84548ac84841369ec79fff9e44fe4eed425a0ea1dcd7b7d364f865cff64"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TheVilfer/better-tg-cli/releases/download/v0.17.0/better-tg-cli-0.17.0-linux-arm64.tar.xz"
-      sha256 "df878247d8a1f092902a0f45c66dccfa02e1c446d13ca60ca6beaabd05bd2b2f"
+      url "https://github.com/TheVilfer/better-tg-cli/releases/download/v0.18.0/better-tg-cli-0.18.0-linux-arm64.tar.xz"
+      sha256 "f086d2f63ae214926c2271a0fc8bd41e0c088a23f8f4d27a2004305cc895b35c"
     end
     on_intel do
-      url "https://github.com/TheVilfer/better-tg-cli/releases/download/v0.17.0/better-tg-cli-0.17.0-linux-x64.tar.xz"
-      sha256 "546ea66434918b6e29ae07a6e371ca9b9f22b886a3c53dd8b343de8c36c8a6ea"
+      url "https://github.com/TheVilfer/better-tg-cli/releases/download/v0.18.0/better-tg-cli-0.18.0-linux-x64.tar.xz"
+      sha256 "25b77e5f4d854f93807ad88a2bdb6f8c97699aeaa0996708bea261a0d333179d"
     end
   end
 
